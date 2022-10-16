@@ -33,3 +33,7 @@ $\mathrm{trln}(U_Y U_X U_Y^\dagger U_X^\dagger) = \sum_i \mathrm{ln}\frac{\lambd
 where $\lambda_i$ are the eigenvalues of $U_Y U_X U_Y^\dagger U_X^\dagger$.
 
 This index $B$ should be integer. But this program produces real numbers.
+
+### (Added on October 16, 2022)
+
+I realized there might be a mistake in the spin-orbit part in the subroutine, make_BdG_Hamiltonian.
