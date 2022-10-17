@@ -40,6 +40,6 @@ I realized there might be a mistake in the spin-orbit part in the subroutine, ma
 
 ### (Added on October 17, 2022)
 
-I fixed the mistakes and turned it into python code and it worked correctly.
+I fixed the mistakes and turned it into python code and it worked correctly and made OBC(Open Boundary Condition) one. Note that the method of rescaling is different between OBC and PBC. I suppose that for PBC, rescale to the [0.1) interval as defined in many papers, but for OBC, rescale to the [0, 1] interval is required.
 
 I'll make its Fortran version for larger matrices.
