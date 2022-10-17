@@ -37,3 +37,9 @@ This index $B$ should be integer. But this program produces real numbers.
 ### (Added on October 16, 2022)
 
 I realized there might be a mistake in the spin-orbit part in the subroutine, make_BdG_Hamiltonian.
+
+### (Added on October 17, 2022)
+
+I fixed the mistakes and turned it into python code and it worked correctly.
+
+I'll make its Fortran version for larger matrices.
