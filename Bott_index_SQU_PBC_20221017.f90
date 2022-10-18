@@ -1,5 +1,4 @@
 !calculate Bott index of square lattice with periodic boundary condition when pair potential is given(not self-consist solution)
-!This program does NOT produce the correct results.
 program Bott_index_SQU_PBC
     !use F95_LAPACK
 
