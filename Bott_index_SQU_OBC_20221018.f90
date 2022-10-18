@@ -1,5 +1,4 @@
-!gfortran Bott_index_SQU_OBC.f90 -I/usr/local/include -llapack95 -llapack -lblas -o Bott_index_SQU_OBC.out
-!./Bott_index_SQU_OBC.out
+!calculate Bott index of square lattice with periodic boundary condition when pair potential is given(not self-consist solution)
 program Bott_index_SQU_OBC
     !use F95_LAPACK
 
